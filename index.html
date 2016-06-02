@@ -4,12 +4,15 @@
     <title>Testing environment</title>
   </head>
   <body>
-    <div id='test'>
-    </div>
+    <div id='helloWorld'></div>
+    <div id='unorderedList'></div>
     <script type="text/javascript" src="helloWorld.js"></script>
+    <script type="text/javascript" src="unordered-list.js"></script>
     <script type="text/javascript">
-      var test = document.getElementById('test');
-      Elm.HelloWorld.embed(test);
+      var helloWorld = document.getElementById('helloWorld');
+      Elm.HelloWorld.embed(helloWorld);
+      var unorderedList = document.getElementById('unorderedList');
+      Elm.UnorderedList.embed(unorderedList);
     </script>
   </body>
 </html>
