@@ -6728,13 +6728,13 @@ var _elm_lang$html$Html$summary = _elm_lang$html$Html$node('summary');
 var _elm_lang$html$Html$menuitem = _elm_lang$html$Html$node('menuitem');
 var _elm_lang$html$Html$menu = _elm_lang$html$Html$node('menu');
 
-var _user$project$Main$main = {
+var _user$project$HelloWorld$main = {
 	main: _elm_lang$html$Html$text('Hello, World!')
 };
 
 var Elm = {};
-Elm['Main'] = Elm['Main'] || {};
-_elm_lang$core$Native_Platform.addPublicModule(Elm['Main'], 'Main', typeof _user$project$Main$main === 'undefined' ? null : _user$project$Main$main);
+Elm['HelloWorld'] = Elm['HelloWorld'] || {};
+_elm_lang$core$Native_Platform.addPublicModule(Elm['HelloWorld'], 'HelloWorld', typeof _user$project$HelloWorld$main === 'undefined' ? null : _user$project$HelloWorld$main);
 
 if (typeof define === "function" && define['amd'])
 {
