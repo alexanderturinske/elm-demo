@@ -4,8 +4,8 @@
   "description": "Practicing with elm",
   "main": "bundle.js",
   "scripts": {
-    "bundle": "echo \"Bundling with elm-make\" && elm-make components/"
-    "start": "echo \"Opening index.html\" && open index.html",
+    "bundle": "echo \"Bundling with elm-make\" && elm-make components/",
+    "start": "echo \"Bundling with elm-make\" && elm-make components/* --output=bundle.js && echo \"Opening index.html\" && open index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
