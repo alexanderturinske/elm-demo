@@ -1,2 +1,3 @@
 # Files from elm-make
 client/build-artifacts/0.17.0/user
+bundle.js
