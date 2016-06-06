@@ -6,12 +6,15 @@
   <body>
     <div id='helloWorld'></div>
     <div id='unorderedList'></div>
+    <div id='buttons'></div>
     <script type="text/javascript" src="bundle.js"></script>
     <script type="text/javascript">
       var helloWorld = document.getElementById('helloWorld');
       Elm.HelloWorld.embed(helloWorld);
       var unorderedList = document.getElementById('unorderedList');
       Elm.UnorderedList.embed(unorderedList);
+      var buttons = document.getElementById('buttons');
+      Elm.Buttons.embed(buttons);
     </script>
   </body>
 </html>
